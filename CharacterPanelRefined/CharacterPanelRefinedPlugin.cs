@@ -35,19 +35,7 @@ public class CharacterPanelRefinedPlugin : IDalamudPlugin {
     }
 
     internal void UpdateLanguage() {
-        var lang = "";
-
-        if (Configuration.UseGameLanguage) {
-            lang = Service.ClientState.ClientLanguage switch {
-                ClientLanguage.English => "",
-                ClientLanguage.French => "fr",
-                ClientLanguage.German => "de",
-                ClientLanguage.Japanese => "ja",
-                _ => ""
-            };
-        }
-
-        Localization.Culture = new CultureInfo(lang);
+        Localization.Culture = CultureInfo.GetCultureInfo("zh-Hans");
 
         characterStatusAugments.ReloadLocs();
     }

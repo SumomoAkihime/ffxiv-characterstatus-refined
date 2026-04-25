@@ -148,7 +148,7 @@ Le sort Médecine de l'Invocateur est la seule exception à cette règle car il 
     </data>
     <data name="Config_Window_Use_Game_Language_Tooltip" xml:space="preserve">
         <value>Utilise la langue interne du jeu pour ce plugin si elle est disponible.
- Actuellement disponible : Anglais, Allemand, Français</value>
+ Actuellement disponible : Anglais, Allemand, Français, Japonais, Chinois simplifié</value>
     </data>
     <data name="Config_Show_average_damage" xml:space="preserve">
         <value>Afficher les dégâts médians</value>

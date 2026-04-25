@@ -13,6 +13,7 @@ public sealed class ConfigWindow : IDisposable {
         this.plugin = plugin;
         pluginInterface.UiBuilder.Draw += Draw;
         pluginInterface.UiBuilder.OpenConfigUi += () => showConfig = true;
+        pluginInterface.UiBuilder.OpenMainUi += () => showConfig = true;
         Service.CommandManager.AddHandler("/cprconfig",
             new CommandInfo((_, _) => showConfig ^= true) { HelpMessage = "Open the Character Panel Refined configuration." });
     }
@@ -33,14 +34,6 @@ public sealed class ConfigWindow : IDisposable {
             }
             ShowTooltipsTooltip();
 
-
-            var bUseGameLanguage = conf.UseGameLanguage;
-            if (ImGui.Checkbox(Localization.Config_Use_Game_Language_if_available, ref bUseGameLanguage)) {
-                conf.UseGameLanguage = bUseGameLanguage;
-                plugin.UpdateLanguage();
-                conf.Save();
-            }
-            UseGameLanguageTooltip();
 
             var bShowAvgDamage = conf.ShowAvgDamage;
             if (ImGui.Checkbox(Localization.Config_Show_average_damage, ref bShowAvgDamage)) {
@@ -93,14 +86,6 @@ public sealed class ConfigWindow : IDisposable {
         if (ImGui.IsItemHovered()) {
             ImGui.BeginTooltip();
             ImGui.TextUnformatted(Localization.Config_Override_default_tooltips_tooltip);
-            ImGui.EndTooltip();
-        }
-    }
-
-    private void UseGameLanguageTooltip() {
-        if (ImGui.IsItemHovered()) {
-            ImGui.BeginTooltip();
-            ImGui.TextUnformatted(Localization.Config_Window_Use_Game_Language_Tooltip);
             ImGui.EndTooltip();
         }
     }

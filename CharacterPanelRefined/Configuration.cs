@@ -9,7 +9,7 @@ public class Configuration : IPluginConfiguration {
     [NonSerialized] private IDalamudPluginInterface pluginInterface = null!;
 
     public bool ShowTooltips { get; set; } = true;
-    public bool UseGameLanguage { get; set; } = true;
+    public bool UseGameLanguage { get; set; } = false;
     public bool ShowAvgDamage { get; set; } = true;
     public bool ShowAvgHealing { get; set; } = true;
     public bool ShowGearProperties { get; set; } = true;

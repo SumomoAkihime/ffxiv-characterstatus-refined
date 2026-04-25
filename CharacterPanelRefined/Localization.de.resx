@@ -138,7 +138,7 @@ Die einzige Ausnahme stellt Physick vom BSW dar, da es mit Willenskraft statt In
     </data>
     <data name="Config_Window_Use_Game_Language_Tooltip" xml:space="preserve">
         <value>Verwende die interne Spielsprache für dieses Plugin, sollte sie verfügbar sein.
-Verfügbar: Englisch, Deutsch, Französisch</value>
+Verfügbar: Englisch, Deutsch, Französisch, Japanisch, Vereinfachtes Chinesisch</value>
     </data>
     <data name="Buff_ArmysPaeon" xml:space="preserve">
         <value>Hymne der Krieger</value>
