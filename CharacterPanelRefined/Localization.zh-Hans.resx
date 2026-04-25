@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Panel_Crit_Chance" xml:space="preserve">
+        <value>暴击率</value>
+    </data>
+    <data name="Panel_Crit_Damage" xml:space="preserve">
+        <value>暴击伤害</value>
+    </data>
+    <data name="Panel_Damage_Increase" xml:space="preserve">
+        <value>伤害提升</value>
+    </data>
+    <data name="Panel_Damage_per_100_Potency" xml:space="preserve">
+        <value>平均伤害</value>
+    </data>
+    <data name="Panel_Heal_per_100_Potency" xml:space="preserve">
+        <value>平均治疗</value>
+    </data>
+    <data name="Panel_Damage_Mitigation" xml:space="preserve">
+        <value>减伤</value>
+    </data>
+    <data name="Panel_Direct_Hit_Chance" xml:space="preserve">
+        <value>直击率</value>
+    </data>
+    <data name="Panel_FireIII_GCD" xml:space="preserve">
+        <value>火炎之3咏唱</value>
+    </data>
+    <data name="Panel_RubyRite_GCD" xml:space="preserve">
+        <value>红宝石之仪复唱</value>
+    </data>
+    <data name="Panel_BlizzardInCyan_GCD" xml:space="preserve">
+        <value>青冰咏唱复唱</value>
+    </data>
+    <data name="Panel_GCD" xml:space="preserve">
+        <value>复唱时间</value>
+    </data>
+    <data name="Panel_Magic_Mitigation" xml:space="preserve">
+        <value>魔法减伤</value>
+    </data>
+    <data name="Panel_Mana_per_Tick" xml:space="preserve">
+        <value>每跳魔力</value>
+    </data>
+    <data name="Panel_Physical_Mitigation" xml:space="preserve">
+        <value>物理减伤</value>
+    </data>
+    <data name="Panel_Skill_Speed_Increase" xml:space="preserve">
+        <value>复唱缩短</value>
+    </data>
+    <data name="Panel_Speed_Properties" xml:space="preserve">
+        <value>速度属性</value>
+    </data>
+    <data name="Panel_Item_level_Sync" xml:space="preserve">
+        <value>装备品级同步</value>
+    </data>
+    <data name="Tooltips_Crit_Tooltip" xml:space="preserve">
+        <value>{@Title}暴击{@Clear}会影响攻击与治疗触发暴击的概率，以及暴击时造成的伤害和恢复的体力。
+
+暴击率与暴击伤害每增加 {PointsPerTier} 点属性，都会提升 0.1%。</value>
+    </data>
+    <data name="Tooltips_Determination_Tooltip" xml:space="preserve">
+        <value>{@Title}信念{@Clear}会提高攻击造成的伤害，以及治疗技能恢复的体力。
+
+信念效果每增加 {PointsPerTier} 点属性，提升 0.1%。</value>
+    </data>
+    <data name="Tooltips_Direct_Hit_Tooltip" xml:space="preserve">
+        <value>{@Title}直击{@Clear}会影响攻击触发直击的概率。
+直击会使伤害提高 25%。
+
+直击率每增加 {PointsPerTier} 点属性，提升 0.1%。</value>
+    </data>
+    <data name="Tooltips_Skill_Spell_Speed_Tooltip" xml:space="preserve">
+        <value>{@Title}技速/咏速{@Clear}会缩短咏唱与复唱时间，并提高持续伤害效果造成的伤害。</value>
+    </data>
+    <data name="Tooltips_Skill_Spell_Speed_GCD" xml:space="preserve">
+        <value>以 {GCD} 秒公共复唱为例，平均每增加 {PointsPerTier} 点属性会再缩短 0.01 秒。</value>
+    </data>
+    <data name="Tooltips_Skill_Spell_Speed_With_Mod" xml:space="preserve">
+        <value>{@Highlight}这些数值默认假设已启用 {@Red}{ModName}{@Clear}。
+按住 Ctrl 可查看未启用 {@Red}{ModName}{@Clear} 时的数值。{@Clear}</value>
+    </data>
+    <data name="Tooltips_Skill_Spell_Speed_Without_Mod" xml:space="preserve">
+        <value>{@Highlight}按住 Ctrl 可查看启用 {@Red}{ModName}{@Clear} 时的数值。{@Clear}</value>
+    </data>
+    <data name="Tooltips_Skill_Spell_Speed_DoT_Increase" xml:space="preserve">
+        <value>持续伤害每增加 {PointsPerTier} 点属性，提升 0.1%。</value>
+    </data>
+    <data name="Tooltips_Next_Tier" xml:space="preserve">
+        <value>距离下一个档位还需要 {@Highlight}{NextTier}{@Clear} {Points}。</value>
+    </data>
+    <data name="Tooltips_Wasting" xml:space="preserve">
+        <value>你当前浪费了 {@Wasting}{Wasting}{@Clear} {Points}。</value>
+    </data>
+    <data name="Tooltips_Wasting_Points_Singular" xml:space="preserve">
+        <value>点</value>
+    </data>
+    <data name="Tooltips_Wasting_Points_Plural" xml:space="preserve">
+        <value>点</value>
+    </data>
+    <data name="Tooltips_Expected_Damage" xml:space="preserve">
+        <value>这里显示 100 威力技能的平均伤害，已计入暴击、直击以及如战斗精通等被动特性。
+
+普通命中平均造成 {@Highlight}{NormalValue}{@Clear} 伤害。
+暴击命中平均造成 {@Highlight}{CritValue}{@Clear} 伤害。
+
+伤害始终会有 ±5% 的浮动。</value>
+    </data>
+    <data name="Tooltips_Expected_Heal" xml:space="preserve">
+        <value>这里显示 100 威力治疗技能的平均恢复量，已计入暴击以及如战斗精通等被动特性。
+
+普通治疗平均恢复 {@Highlight}{NormalValue}{@Clear} 体力。
+暴击治疗平均恢复 {@Highlight}{CritValue}{@Clear} 体力。
+
+恢复量始终会有 ±3% 的浮动。</value>
+    </data>
+    <data name="Tooltips_Tenacity_Tooltip" xml:space="preserve">
+        <value>{@Title}坚韧{@Clear}会提高自身行动造成的伤害与治疗量，并减少受到的伤害。
+
+减伤效果每增加 {PointsPerTier} 点属性，提升 0.1%。</value>
+    </data>
+    <data name="Tooltips_Tenacity_Damage_Increase" xml:space="preserve">
+        <value>伤害与治疗量每增加 {PointsPerTier} 点属性，提升 0.1%。</value>
+    </data>
+    <data name="Tooltips_Piety_Tooltip" xml:space="preserve">
+        <value>{@Title}信仰{@Clear}会提高每次服务器回蓝跳数（每 3 秒）获得的魔力。
+默认每跳恢复 200 魔力。
+
+每增加 {PointsPerTier} 点信仰，额外多恢复 1 点魔力。</value>
+    </data>
+    <data name="Tooltips_Defense_Tooltip" xml:space="preserve">
+        <value>{@Title}防御力{@Clear}每增加 {PointsPerTier} 点属性，受到的物理伤害降低 1%。</value>
+    </data>
+    <data name="Tooltips_Magic_Defense_Tooltip" xml:space="preserve">
+        <value>{@Title}魔法防御力{@Clear}每增加 {PointsPerTier} 点属性，受到的魔法伤害降低 1%。</value>
+    </data>
+    <data name="Tooltips_Vitality_Tooltip" xml:space="preserve">
+        <value>{@Title}耐力{@Clear}每增加 1 点属性，最大体力提高 {HpPerPoint}。
+作为 {Job}，你的基础体力为 {BaseHp}。</value>
+    </data>
+    <data name="Tooltips_Main_Stat_Tooltip" xml:space="preserve">
+        <value>{@Title}主属性{@Clear}会提高行动造成的伤害与治疗量。
+主属性提高 10%，通常就意味着伤害和治疗提高 10%。
+
+唯一的例外是召唤师的医术，因为它按精神而不是智力计算。</value>
+    </data>
+    <data name="Tooltips_Item_Level_Sync" xml:space="preserve">
+        <value>{@Title}装备品级同步{@Clear}会在进入 {@Red}降低角色等级{@Clear} 的任务，或限制最高装等的任务时生效。通常会显示为 {@Red} 装备品级同步{@Clear}，或者在开启 {@Red}最低品级{@Clear} 排队时触发。
+
+任何装备品级高于上限的装备都会失去全部魔晶石镶嵌，其属性会被截断到该同步品级同类装备可达到的最高值。</value>
+    </data>
+    <data name="Config_Character_Panel_Refined_Config" xml:space="preserve">
+        <value>Character Panel Refined 设置</value>
+    </data>
+    <data name="Config_Override_default_tooltips" xml:space="preserve">
+        <value>使用更详细的提示替换角色面板原版提示</value>
+    </data>
+    <data name="Config_Use_Game_Language_if_available" xml:space="preserve">
+        <value>可用时跟随游戏语言</value>
+    </data>
+    <data name="Config_Override_default_tooltips_tooltip" xml:space="preserve">
+        <value>覆盖所有属性的默认提示文本。</value>
+    </data>
+    <data name="Config_Window_Use_Game_Language_Tooltip" xml:space="preserve">
+        <value>若插件提供对应翻译，则使用游戏内部语言。
+当前可用：英语、德语、法语、日语、简体中文</value>
+    </data>
+    <data name="Config_Show_average_damage" xml:space="preserve">
+        <value>显示平均伤害</value>
+    </data>
+    <data name="Config_Show_average_healing" xml:space="preserve">
+        <value>显示平均治疗</value>
+    </data>
+    <data name="Config_Show_crit_damage_increase" xml:space="preserve">
+        <value>显示暴击伤害提升</value>
+    </data>
+    <data name="Config_Show_direct_hit_damage_increase" xml:space="preserve">
+        <value>显示直击伤害提升</value>
+    </data>
+    <data name="Config_Help_Apply_Changes" xml:space="preserve">
+        <value>修改设置后，需要重新打开角色面板才能生效。</value>
+    </data>
+    <data name="Panel_excluding_Consumables" xml:space="preserve">
+        <value>不含食品药剂</value>
+    </data>
+    <data name="Panel_CP" xml:space="preserve">
+        <value>CP</value>
+    </data>
+    <data name="Panel_GP" xml:space="preserve">
+        <value>GP</value>
+    </data>
+    <data name="Config_Show_stats_without_consumables" xml:space="preserve">
+        <value>显示不含食品药剂的生产/采集属性</value>
+    </data>
+    <data name="Config_Show_item_level_information" xml:space="preserve">
+        <value>显示装备品级信息</value>
+    </data>
+    <data name="Config_Show_synced_stats" xml:space="preserve">
+        <value>在装备提示中显示同步后属性</value>
+    </data>
+    <data name="Tooltip_Show_synced_stats" xml:space="preserve">
+        <value>装备发生装等同步时，在道具提示中显示同步后的属性。
+按住 Ctrl 可暂时关闭。
+（由于游戏内的取整方式，结果可能会有 1 点误差。）</value>
+    </data>
+    <data name="Buff_LeyLines" xml:space="preserve">
+        <value>黑魔纹</value>
+    </data>
+    <data name="Buff_LeyLines_Abbrev" xml:space="preserve">
+        <value>黑魔纹</value>
+    </data>
+    <data name="Buff_GreasedLightning" xml:space="preserve">
+        <value>疾风迅雷</value>
+    </data>
+    <data name="Buff_GreasedLightning_Abbrev" xml:space="preserve">
+        <value>迅雷</value>
+    </data>
+    <data name="Buff_Shifu" xml:space="preserve">
+        <value>士风</value>
+    </data>
+    <data name="Buff_PresenceOfMind" xml:space="preserve">
+        <value>神速咏唱</value>
+    </data>
+    <data name="Buff_PresenceOfMind_Abbrev" xml:space="preserve">
+        <value>神速</value>
+    </data>
+    <data name="Buff_Huton" xml:space="preserve">
+        <value>风遁之术</value>
+    </data>
+    <data name="Buff_ArmysPaeon" xml:space="preserve">
+        <value>军神的赞美歌</value>
+    </data>
+    <data name="Buff_ArmysPaeon_Abbrev" xml:space="preserve">
+        <value>军神</value>
+    </data>
+    <data name="Buff_Swiftscaled" xml:space="preserve">
+        <value>疾速龙鳞</value>
+    </data>
+    <data name="Buff_Swiftscaled_Abbrev" xml:space="preserve">
+        <value>龙鳞</value>
+    </data>
+    <data name="Buff_Hyperphantasia" xml:space="preserve">
+        <value>超绝幻想</value>
+    </data>
+    <data name="Buff_Hyperphantasia_Abbrev" xml:space="preserve">
+        <value>幻想</value>
+    </data>
+</root>
